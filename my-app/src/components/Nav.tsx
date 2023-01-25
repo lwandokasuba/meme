@@ -2,11 +2,11 @@ import React from 'react'
 
 function nav() {
   return (
-    <div className='flex'>
-        <nav>
-        <h1 className='font-Merriweather'>Meme</h1>
-        </nav>
-    </div>
+
+    <nav className='w-full py-6 justify-between items-center navbar'>
+        <h1 className={`font-poppins text-[40px] cursor-pointer`}>Meme</h1>
+    </nav>
+
   )
 }
 
