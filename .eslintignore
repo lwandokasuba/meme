@@ -1,0 +1,8 @@
+build/
+node_modules/
+serviceWorker.js
+types/
+public/
+contracts/
+scripts/
+tests/
