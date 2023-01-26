@@ -5,7 +5,7 @@ import { Nav } from './components';
 
 function App() {
   return (
-    <div className={`flex flex-col items-center w-full`}>
+    <div className="flex flex-col items-center w-full">
       {/* Navigation */}
       <div className={`${styles.paddingX}`}>
         <div className={`${styles.boxWidth}`}>
@@ -15,9 +15,7 @@ function App() {
 
       {/* Other sections */}
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-
-        </div>
+        <div className={`${styles.boxWidth}`} />
       </div>
 
     </div>
